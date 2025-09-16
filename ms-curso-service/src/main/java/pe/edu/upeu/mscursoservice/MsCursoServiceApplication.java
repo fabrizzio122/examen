@@ -1,13 +1,13 @@
-package pe.edu.fab.mscurso;
+package pe.edu.upeu.mscursoservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsCursoApplication {
+public class MsCursoServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsCursoApplication.class, args);
+        SpringApplication.run(MsCursoServiceApplication.class, args);
     }
 
 }

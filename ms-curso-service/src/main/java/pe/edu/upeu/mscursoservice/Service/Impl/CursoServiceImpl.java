@@ -1,13 +1,14 @@
-package pe.edu.fab.mscurso.Service.Impl;
+package pe.edu.upeu.mscursoservice.Service.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pe.edu.fab.mscurso.Entity.Curso;
-import pe.edu.fab.mscurso.Repository.CursoRepository;
-import pe.edu.fab.mscurso.Service.CursoService;
+import pe.edu.upeu.mscursoservice.Entity.Curso;
+import pe.edu.upeu.mscursoservice.Respository.CursoRepository;
+import pe.edu.upeu.mscursoservice.Service.CursoService;
 
 import java.util.List;
 import java.util.Optional;
+
 @Service
 public class CursoServiceImpl implements CursoService {
     @Autowired
@@ -23,12 +24,13 @@ public class CursoServiceImpl implements CursoService {
     }
 
     @Override
-    public Curso guardar(Curso curso) {return cursoRepository.save(curso);
+    public Curso guardar(Curso categoria) {
+        return cursoRepository.save(categoria);
     }
 
     @Override
-    public Curso actualizar(Curso curso) {
-        return cursoRepository.save(curso);
+    public Curso actualizar(Curso categoria) {
+        return cursoRepository.save(categoria);
     }
 
     @Override

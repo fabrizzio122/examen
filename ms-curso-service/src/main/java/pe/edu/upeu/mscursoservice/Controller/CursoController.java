@@ -1,14 +1,14 @@
-package pe.edu.fab.mscurso.Controller;
+package pe.edu.upeu.mscursoservice.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.fab.mscurso.Entity.Curso;
-import pe.edu.fab.mscurso.Service.CursoService;
+import pe.edu.upeu.mscursoservice.Entity.Curso;
+import pe.edu.upeu.mscursoservice.Service.CursoService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/Curso")
+@RequestMapping("/curso")
 public class CursoController {
     @Autowired
     CursoService cursoService;

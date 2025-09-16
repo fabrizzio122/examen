@@ -1,10 +1,10 @@
-package pe.edu.fab.mscurso;
+package pe.edu.upeu.mscursoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsCursoApplicationTests {
+class MsCursoServiceApplicationTests {
 
     @Test
     void contextLoads() {
