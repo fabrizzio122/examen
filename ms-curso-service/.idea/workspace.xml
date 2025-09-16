@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c931420-d737-4b7a-b906-286edc15acb1" name="Changes" comment="" />
+    <list default="true" id="2c931420-d737-4b7a-b906-286edc15acb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ms-matricula-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-matricula-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
